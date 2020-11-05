@@ -1,0 +1,280 @@
+2020-11-05T11:56:16+00:00 CRITICAL require(): Failed opening required 'F:\OSPanel\domains\mozar.loc/wp-content/themes/mozar/inc/custom-header.php' (include_path='.') в F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php на строке 20
+
+2020-11-05T13:16:46+00:00 CRITICAL Uncaught Error: Call to a member function add_fields() on null in F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php:64
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): crb_attach_theme_options('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(112): do_action('carbon_fields_r...')
+#4 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 F:\OSPanel\domains\mozar.loc\wp-settings.php(546): do_action('init')
+#8 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel в F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php на строке 64
+
+2020-11-05T13:21:44+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\plugins.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:23:21+00:00 CRITICAL Uncaught Error: Call to a member function add_fields() on null in F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php:64
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): crb_attach_theme_options('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(112): do_action('carbon_fields_r...')
+#4 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 F:\OSPanel\domains\mozar.loc\wp-settings.php(546): do_action('init')
+#8 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel в F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php на строке 64
+
+2020-11-05T13:32:21+00:00 CRITICAL Uncaught Error: Call to a member function add_fields() on null in F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php:80
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): crb_attach_theme_options('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(112): do_action('carbon_fields_r...')
+#4 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 F:\OSPanel\domains\mozar.loc\wp-settings.php(546): do_action('init')
+#8 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel в F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php на строке 80
+
+2020-11-05T13:32:23+00:00 CRITICAL Uncaught Error: Call to a member function add_fields() on null in F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php:80
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): crb_attach_theme_options('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(112): do_action('carbon_fields_r...')
+#4 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 F:\OSPanel\domains\mozar.loc\wp-settings.php(546): do_action('init')
+#8 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel в F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php на строке 80
+
+2020-11-05T13:36:55+00:00 CRITICAL Uncaught Error: Call to a member function add_fields() on null in F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php:80
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): crb_attach_theme_options('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(112): do_action('carbon_fields_r...')
+#4 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 F:\OSPanel\domains\mozar.loc\wp-settings.php(546): do_action('init')
+#8 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel в F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php на строке 80
+
+2020-11-05T13:41:39+00:00 CRITICAL Uncaught Error: Call to a member function add_fields() on null in F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php:9
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): crb_attach_theme_options('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(112): do_action('carbon_fields_r...')
+#4 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 F:\OSPanel\domains\mozar.loc\wp-settings.php(546): do_action('init')
+#8 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\ в F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php на строке 9
+
+2020-11-05T13:41:42+00:00 CRITICAL Uncaught Error: Call to a member function add_fields() on null in F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php:9
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): crb_attach_theme_options('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(112): do_action('carbon_fields_r...')
+#4 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 F:\OSPanel\domains\mozar.loc\wp-settings.php(546): do_action('init')
+#8 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\ в F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php на строке 9
+
+2020-11-05T13:43:52+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\plugins.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:44:17+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\plugins.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:44:21+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\plugins.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:46:57+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\plugins.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:46:59+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\plugins.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:47:29+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\plugins.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:47:31+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\plugins.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:47:36+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\about.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:48:27+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\plugins.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:48:29+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\plugins.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:48:31+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\plugins.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:48:32+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\plugins.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:48:33+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Carbon_Fields' not found in F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php:25
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): carbon_fields_boot_plugin('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-settings.php(524): do_action('after_setup_the...')
+#4 F:\OSPanel\domains\mozar.loc\wp-config.php(89): require_once('F:\\OSPanel\\doma...')
+#5 F:\OSPanel\domains\mozar.loc\wp-load.php(37): require_once('F:\\OSPanel\\doma...')
+#6 F:\OSPanel\domains\mozar.loc\wp-admin\admin.php(34): require_once('F:\\OSPanel\\doma...')
+#7 F:\OSPanel\domains\mozar.loc\wp-admin\plugins.php(10): require_once('F:\\OSPanel\\doma...')
+#8 {main}
+  thrown в F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields-plugin\carbon-fields-plugin.php на строке 25
+
+2020-11-05T13:53:57+00:00 CRITICAL Uncaught Error: Call to a member function add_fields() on null in F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php:10
+Stack trace:
+#0 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): crb_attach_theme_options('')
+#1 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 F:\OSPanel\domains\mozar.loc\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(112): do_action('carbon_fields_r...')
+#4 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 F:\OSPanel\domains\mozar.loc\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 F:\OSPanel\domains\mozar.loc\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 F:\OSPanel\domains\mozar.loc\wp-settings.php(546): do_action('init')
+#8 F:\OSPanel\domains\mozar.loc\wp-config.p в F:\OSPanel\domains\mozar.loc\wp-content\themes\mozar\functions.php на строке 10
+
