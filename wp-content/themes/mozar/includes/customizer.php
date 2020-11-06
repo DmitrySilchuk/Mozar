@@ -10,6 +10,17 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
+
+add_action( 'customize_preview_init', 'theme_preview_register' );
+function theme_preview_register() {
+    // Customizer JS
+    wp_enqueue_script(
+        'wpa-customizer',
+        get_stylesheet_directory_uri() . '/js/wpa-customizer.js',
+        array( 'jquery','customize-preview' ), // <<< Specify Dependencies...
+        true );
+}
+
 function mozar_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';

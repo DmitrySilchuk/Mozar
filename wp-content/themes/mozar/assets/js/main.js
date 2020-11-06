@@ -4,13 +4,12 @@
 /*----------------------------
     jQuery MeanMenu
 ------------------------------ */
-	jQuery('nav#dropdown').meanmenu();	
+	jQuery('nav#dropdown').meanmenu($);
 	
 /*----------------------------
     wow js active
 ------------------------------ */
     new WOW().init();
- 
 /*----------------------------
     Product Carousel active
 ------------------------------ */  
