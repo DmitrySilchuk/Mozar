@@ -8,7 +8,7 @@ if (!defined('ABSPATH')) {
 /**
  * Enqueue scripts and styles.
  */
-add_action( 'wp_enqueue_scripts', 'mozar_scripts' );
+add_action( 'wp_enqueue_scripts', 'mozar_styles' );
 function mozar_styles() {
     $theme_version = wp_get_theme()->get( 'Version' );
 

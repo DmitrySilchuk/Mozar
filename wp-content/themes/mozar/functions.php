@@ -56,7 +56,7 @@ require get_template_directory() . '/includes/custom-header.php';
 require get_template_directory() . '/includes/template-tags.php';
 
 /**
- * Custom template tags for this theme.
+ * Theme helper functions.
  */
 require get_template_directory() . '/includes/helpers.php';
 

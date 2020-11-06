@@ -23,7 +23,8 @@
  * @return void
  */
 function mozar_woocommerce_scripts() {
-	wp_enqueue_style( 'mozar-woocommerce-style', get_template_directory_uri() . '/woocommerce.css', array(), _S_VERSION );
+    $theme_version = wp_get_theme()->get( 'Version' );
+	wp_enqueue_style( 'mozar-woocommerce-style', get_template_directory_uri() . '/woocommerce.css', array(), $theme_version );
 
 	$font_path   = WC()->plugin_url() . '/assets/fonts/';
 	$inline_font = '@font-face {
